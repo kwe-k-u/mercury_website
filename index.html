@@ -4,9 +4,328 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mercury</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/logo.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<title>Mercury - Home</title>
 </head>
 <body>
+
+	<!-- Navbar-->
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand text-light">
+			<img src="/images/logo_secondary.png" alt="" height="60px" class="px-2 my-0  d-none d-lg-block">
+			<img src="/images/logo.png" alt="" height="60px" class="d-lg-none">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id ="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<div class="navbar-nav">
+					  <a class="nav-link active" aria-current="page" href="#">Home</a>
+					  <a class="nav-link" href="#features">Features</a>
+					  <a class="nav-link" href="#">About</a>
+					  <a class="nav-link disabled">Pricing</a>
+					  <a class="nav-link" id="migration" href="pages/migration.html">Migration</a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- Showcase-->
+	<section class="bg-dark text-light p-5 pb-lg-0 pt-lg-5 text-center text-sm-start">
+		<div class="container">
+			<div class="d-sm-flex align-items-center justify-content-between">
+				<div>
+					<h1>Grow your Jumia store </h1>
+					<p class="lead my-4">
+						Mercury is the utility mobile app that helps you grow your sales with ease
+					</p>
+					<button class="btn btn-primary btn-lg mb-3" href="">Join Beta Program</button>
+				</div>
+				<img class="img-fluid w-50 d-none d-sm-block" src="images/showcase.svg" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!-- News Letter-->
+	<section class="bg-primary text-light p-5">
+		<div class="container">
+			<div class="d-md-flex justify-content-between align-items-center">
+				<h3 class="mb-3 mb-md-0">Get our NewsLetter</h3>
+
+				<div class="input-group news-input">
+					<input type="text" class="form-control" placeholder="Enter email">
+					<button class="btn btn-dark btn-lg" type="button" >Sign up</button>
+				  </div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Boxes-->
+	<section class="p-5">
+		<div class="container">
+			<div class="row text-center g-4">
+				<h3>Supported Platforms</h3>
+				<div class="col-md">
+					<div class="card bg-dark text-light">
+						<div class="card-body text-center">
+							<div class="h1">
+							<i class="bi bi-phone-fill mb-3"></i>
+
+							</div>
+
+							<h3 class="card-title mb-3">Android</h3>
+							<p class="class-text">Mercury brings all Jumia's sellercenter features  and more to your mobile phone</p>
+							<a href="#" class="btn btn-primary">Download here</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card bg-secondary text-light">
+						<div class="card-body text-center">
+							<div class="h1">
+							<i class="bi bi-laptop mb-3"></i>
+
+							</div>
+
+							<h3 class="card-title mb-3">Desktop</h3>
+							<p class="class-text">Mercury brings all Jumia's sellercenter features  and more to your Desktop </p>
+							<a href="#" class="btn btn-dark disabled">Coming Soon</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="card bg-dark text-light">
+						<div class="card-body text-center">
+
+							<div class="h1 mb-3">
+								<i class="bi bi-phone mb-3"></i>
+
+								</div>
+
+								<h3 class="card-title mb-3">IOS</h3>
+								<p class="class-text">Mercury brings all Jumia's sellercenter features  and more to your mobile phone</p>
+								<a href="#" class="btn btn-primary disabled">Coming Soon</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Free Features section-->
+	<section class="p-5" id="features">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+
+				<div class="col-md">
+					<img src="images/fundamentals.svg" class="img-fluid" alt="">
+					</div>
+					<div class="col-md p-5">
+						<h2>Free tier</h2>
+						<p class="lead">We know how difficult it is to run a business.</p>
+						<p>That is why for our free tier, we give you access to all of Jumia's seller center features free of charge. This includes allowing you to
+							check the status of your orders, change the visibility of your products and follow up on your paychecks.
+						</p>
+
+						<a href="#" class="btn btn-light mt-3">
+							<i class="bi bi-chevron-right"></i> Read more
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Premium features section-->
+	<section class="p-5 bg-dark text-light">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+
+					<div class="col-md p-5">
+						<h2>Mercury Premium</h2>
+						<p class="lead">We want you to succeed.</p>
+						<p> Sometimes you just need more. That is why we provide custom services to support your business. Need help with your accounting? Let
+							mercury premium handle the math while you handle the cash! Mercury Premium also provides you with functionality that streamline your
+							sales process, letting you notify your suppliers if you need restocking
+						</p>
+
+						<a href="#" class="btn btn-light mt-3">
+							<i class="bi bi-chevron-right"></i> Read more
+						</a>
+					</div>
+
+				<div class="col-md">
+					<img src="images/react.svg" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Questions Accordion-->
+	<section class="p-5" id="questions">
+		<div class="container">
+			<h2 class="text-center bm-4">Frequently Asked Questions</h2>
+			<div class="accordion accordion-flush" id="questions">
+				<!--Item 1-->
+				<div class="accordion-item">
+				  <h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question_one" >
+					  Is Mercury made by Jumia?
+					</button>
+				  </h2>
+
+				  <div id="question_one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+					<div class="accordion-body">No. Mercury is purely a third-party application that allows Jumia's sellers to access the Jumia sellercenter
+						functionality from their mobile devices
+					</div>
+				  </div>
+				</div>
+				<!--Item 2-->
+				<div class="accordion-item">
+				  <h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question_two" >
+					  Do I have to pay to use Mercury?
+					</button>
+				  </h2>
+				  <div id="question_two" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+					<div class="accordion-body"> The basic features of mercury are free to use. These features are all the functionality that Jumia's seller center provides. However
+						You can upgrade your account to Mercury Premium in order to enjoy our added services such as auto-accouting and AI-enabled store features.
+					</div>
+				  </div>
+				</div>
+				<!--Item 3-->
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question_three" >
+						Do you sell my data?
+					  </button>
+					</h2>
+					<div id="question_three" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+					  <div class="accordion-body">Mercury is a part of the Duala ecosystem and a guiding principle of Duala is utmost respect for the privacy of our users.
+						  As such, we do not sell any of your data to anybody else. The only data we collect by default is data that allows us to properly provide the essential features
+						  of our projects. Unless you voluntarily give us your data for any purposes beyond this, we do not collect it.
+					  </div>
+					</div>
+				  </div>
+				  <!--Item 4-->
+				  <div class="accordion-item">
+					  <h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question_four" >
+						  What happens when I delete my account?
+						</button>
+					  </h2>
+					  <div id="question_four" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+						<div class="accordion-body">If you delete your Mercury account, all data associated with your account is deleted from our platform. This includes login information,
+							that allows our application make the changes to your Jumia store. <strong>This does not affect your Jumia seller account.</strong> To delete your Jumia seller account,
+							visit <a href="https://sellercenter.jumia.com.gh/" target="_blank">Jumia's seller center</a>
+						</div>
+					  </div>
+					</div>
+			  </div>
+		</div>
+
+	</section>
+
+
+	<!--Instructors-->
+	<section id="customer-feedback" class="p-5 bg-primary">
+		<div class="container">
+			<h2 class="text-center text-white">Customer Feedback</h2>
+			<p class="lead text-center text-white mb-5">
+				You shouldn't trust people who toot their own horns. Here's what our some users say about us
+			</p>
+			<div class="row g-4">
+				<div class="col-md-6 col-lg-3">
+					<div class="card bg-light">
+						<div class="card-body text-center">
+							<img src="https://randomuser.me/api/portraits/men/11.jpg" clas="rounded-circle mb-3" alt="">
+							<h3 class="card-title mb-3">Joseph Boat</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquid corrupti quia at commodi vel.</p>
+							<a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="card bg-light">
+						<div class="card-body text-center">
+							<img src="https://randomuser.me/api/portraits/women/12.jpg" clas="rounded-circle mb-3" alt="">
+							<h3 class="card-title mb-3">Sarah Smith</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquid corrupti quia at commodi vel.</p>
+							<a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="card bg-light">
+						<div class="card-body text-center">
+							<img src="https://randomuser.me/api/portraits/men/10.jpg" clas="rounded-circle mb-3" alt="">
+							<h3 class="card-title mb-3">Joseph Doe</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquid corrupti quia at commodi vel.</p>
+							<a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="card bg-light">
+						<div class="card-body text-center">
+							<img src="https://randomuser.me/api/portraits/women/11.jpg" clas="rounded-circle mb-3" alt="">
+							<h3 class="card-title mb-3">Jane Doe</h3>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquid corrupti quia at commodi vel.</p>
+							<a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+							<a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Contact and Map-->
+	<footer>
+
+	</footer>
+	<section class="p-5">
+		<div class="container">
+			<div class="row g-4">
+				<div class="col-md">
+					<h2 class="text-center mb-4">
+						Contact Info
+					</h2>
+					<ul class="list-group list-group-flush lead">
+						<li class="list-group-item">
+							<span class="fw-bold">Map Location: </span> 1 University avenue
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md"></div>
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
 
 </body>
 </html>

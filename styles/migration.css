@@ -1,0 +1,26 @@
+
+
+#card{
+	background-color: blueviolet;
+	color: white;
+}
+
+.accordion-collapse{
+	color: black;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.container_column{
+	background-color: white;
+	padding: 1em;
+	color: black;
+
+}
+
+.card .nav-link:hover{
+	background-color: #eee;
+}

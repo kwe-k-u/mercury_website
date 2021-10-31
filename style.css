@@ -1,0 +1,25 @@
+body{
+	padding:1em;
+	margin: 0;
+}
+
+
+body::before{
+	display:block;
+	content:"";
+	height: 60px;
+}
+
+.navbar{
+	background-color: red;
+}
+.nav-link:hover {
+	text-decoration: underline;
+	background-color: #111;
+}
+
+
+#migration{
+	text-decoration: dotted;
+	background-color: blueviolet;
+}
